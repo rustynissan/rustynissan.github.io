@@ -4,6 +4,12 @@ body
   text-align:center;
 }
 
+.bottom
+{
+  position:relative;
+  top=1000px
+}
+
 .ex
 {
   position:fixed;
