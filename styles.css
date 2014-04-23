@@ -6,8 +6,8 @@ body
 
 .bottom
 {
-  position:relative;
-  top=1000px
+  padding-top:1000px;
+  font-size:0.5em;
 }
 
 .ex
