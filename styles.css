@@ -6,6 +6,10 @@ body
 
 .ex
 {
+  -ms-transform:rotate(-11deg); /* IE 9 */
+  -webkit-transform:rotate(-11deg); /* Chrome, Safari, Opera */
+  transform:rotate(-11deg);
+  
   color:blue;
   margin:auto;
   text-align:inherit;
