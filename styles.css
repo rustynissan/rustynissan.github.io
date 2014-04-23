@@ -6,7 +6,7 @@ body
 
 .ex
 {
-  position:relative;
+  position:fixed relative;
   top:-50px;
   
   -ms-transform:rotate(-11deg); /* IE 9 */
