@@ -1,7 +1,13 @@
+body
+{
+  text-align:center;
+}
+
 .ex
 {
-width:220px;
-padding:10px;
-border:5px solid gray;
-margin:0px;
+  color:blue;
+  width:220px;
+  padding:10px;
+  border:5px solid gray;
+  margin:0px;
 }
