@@ -6,6 +6,9 @@ body
 
 .ex
 {
+  position:absolute;
+  top:-50px;
+  
   -ms-transform:rotate(-11deg); /* IE 9 */
   -webkit-transform:rotate(-11deg); /* Chrome, Safari, Opera */
   transform:rotate(-11deg);
