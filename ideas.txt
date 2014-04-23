@@ -1,0 +1,4 @@
+Still needed:
+  Maps (Google Maps or Apple Maps?)
+  login info (Facebook?)
+  data management
