@@ -50,7 +50,9 @@ body
 {
   position:fixed;
   left:50%;
-  top:120px;
+  top:100px;
+  margin-left:-280px; /*half of the width*/
+  width:560px;  
   padding:10px;
   z-index:-1;
   
