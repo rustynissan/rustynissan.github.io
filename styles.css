@@ -17,7 +17,9 @@ body
 
 .dumb
 {
-  padding-top:1500px;
+  position:relative;
+  top:2000px;
+  z-index:-1;
 }
 
 .ex
