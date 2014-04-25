@@ -24,10 +24,11 @@ body
 {
   position:fixed;
   left:50%;
-  top:30px;
+  top:100px;
   margin-left:-110px; /*half of the width*/
   width:220px;
   padding:10px;
+  z:-1;
   
   border:5px solid gray;
   border-radius:1em;
