@@ -34,6 +34,32 @@ body
   border-radius:1em;
   
   background-color:yellow;
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+  
+  -ms-transform:rotate(-11deg); /* IE 9 */
+  -webkit-transform:rotate(-11deg); /* Chrome, Safari, Opera */
+  transform:rotate(-11deg);
+  
+  color:blue;
+  text-align:inherit;
+  font-family:Impact, Charcoal, sans-serif;
+}
+
+.videoframe
+{
+  position:fixed;
+  left:50%;
+  top:120px;
+  margin-left:-110px; /*half of the width*/
+  width:480px;
+  padding:10px;
+  z-index:-1;
+  
+  border:5px solid gray;
+  border-radius:1em;
+  
+  background-color:yellow;
   opacity:1;
   filter:alpha(opacity=100); /* For IE8 and earlier */
   
@@ -45,9 +71,3 @@ body
   text-align:inherit;
   font-family:Impact, Charcoal, sans-serif;
 }
-
-/*.ex:hover
-{
-  opacity:1;
-  filter:alpha(opacity=100); /* For IE8 and earlier */
-} */
