@@ -61,7 +61,7 @@ body
   border:5px solid gray;
   border-radius:1em;
   
-  background-color:yellow;
+  background-color:orange;
   opacity:1;
   filter:alpha(opacity=100); /* For IE8 and earlier */
   
