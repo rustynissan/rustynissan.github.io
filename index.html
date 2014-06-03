@@ -18,6 +18,24 @@ h1 {color:midnightblue;}
 </head>
 
 <body>
+<script> /*Facebook SDK*/
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '245608638962649',
+      xfbml      : true,
+      version    : 'v2.0'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
 <h1>Runaway Things</h1>
 
 <div class="videoframe"><p><b>COMING SOON!</b><br> (Here's a completely unrelated video. Watch it.)</p>
